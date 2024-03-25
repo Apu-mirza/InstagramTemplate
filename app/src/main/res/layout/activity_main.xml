@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        tools:context=".MainActivity">
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:id="@+id/storyImage1"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:paddingLeft="3dp"
+                            android:paddingRight="3dp"
+                            android:paddingBottom="3dp"
+                            app:civ_border_color="#9C27B0"
+                            app:civ_border_width="3dp"
+                            android:src="@drawable/mirza1"
+                            app:civ_shadow_color="#3f51b5" />
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:id="@+id/plusId"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:foregroundGravity="bottom"
+                            android:src="@drawable/plus"
+                            app:civ_border_color="#000000"
+                            app:civ_border_width="4dp"
+                            app:civ_shadow_color="#3f51b5" />
+
+                        <TextView
+                            android:id="@+id/countryNameId"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="80dp"
+                            android:text="Mirza Opu"
+                            />
+
+
+
+                    </RelativeLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/storyRecycleId"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        >
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/timeRecycleId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:padding="10dp"
+                    >
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">InstagramC</string>
+
+    <string-array name="country_names">
+
+        <item>Afghanistan</item>
+        <item>Armenia</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>China</item>
+        <item>Croatia</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>Greenland</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Nepal</item>
+        <item>London</item>
+        <item>Malaysia</item>
+
+    </string-array>
+
+</resources>
